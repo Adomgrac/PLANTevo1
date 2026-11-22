@@ -76,7 +76,7 @@ h1 span {
     font-size: 0.85rem;
     text-align: center;
     text-decoration: none;
-    transition: background 0.2s, transform 0.2s;
+    transition: 0.2s, transform 0.2s;
 }
 
 .bouton:hover,
@@ -89,7 +89,6 @@ h1 span {
     outline: 3px solid #fff;
     outline-offset: 3px;
 }
-
 /* Téléphone et petite tablette : image en haut, texte dessous */
 @media (max-width: 800px) {
     header {
